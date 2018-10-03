@@ -1,0 +1,51 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.tkts__container {
+  height: 500px;
+  width: 100%;
+  background-color: #b83325;
+  overflow: hidden;
+}
+
+.flex__container {
+  display: flex;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  height: 100%;
+  align-items: center;
+}
+
+.tkts-phones--img__container {
+  position: relative;
+  width: 50%;
+}
+
+.tkts-phones--img__container img {
+  width: 100%;
+}
+
+.tkts-content__container {
+  text-align: right;
+  color: #fff;
+  padding-left: 90px;
+  width: 50%;
+}
+
+.tkts-content__container img {
+  max-width: 138px;
+  margin-bottom: 45px;
+}
+
+.tkts-content__container h2 {
+  margin-bottom: 25px;
+}
+
+.tkts-content__container p {
+  margin-bottom: 45px;
+}
